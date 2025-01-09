@@ -85,7 +85,7 @@
                             //jika true maka message berisi pesan error, tampilkan dalam alert
                         echo "<script>
                             alert('" . $cek_upload['message'] . "');
-                            document.location='admin.php?page=article';
+                            document.location='admin.php?page=User_Management';
                         </script>";
                         die;
                     }
